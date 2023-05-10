@@ -112,7 +112,7 @@ static const uint32_t pogo_keymap_proto1[] = {
 	KEY(5, 13, KEY_KP4),
 	KEY(5, 14, KEY_KP1),
 	KEY(6, 0, KEY_RESERVED),
-	KEY(6, 1, KEY_Q),
+	KEY(6, 1, KEY_X), /*KEY_Q),*/
 	KEY(6, 2, KEY_E),
 	KEY(6, 3, KEY_R),
 	KEY(6, 4, KEY_W),
@@ -172,7 +172,7 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(2, 8, KEY_T),
 	KEY(2, 9, KEY_E),
 	KEY(2, 10, KEY_R),
-	KEY(2, 11, KEY_W),
+	KEY(2, 11, KEY_X),  /*KEY_W),*/
 	KEY(2, 12, KEY_Q),
 	KEY(2, 13, KEY_RESERVED),
 	KEY(2, 14, KEY_RESERVED),
@@ -245,7 +245,7 @@ static const uint32_t pogo_keymap_debug[] = {
 	KEY(0, 1, KEY_B),
 	KEY(0, 2, KEY_C),
 	KEY(0, 3, KEY_D),
-	KEY(0, 4, KEY_E),
+	KEY(0, 4, KEY_X), /*KEY_E),*/
 	KEY(0, 5, KEY_F),
 	KEY(0, 6, KEY_G),
 	KEY(0, 7, KEY_H),
@@ -370,7 +370,7 @@ static const uint32_t pogo_keymap_proto3_type_c[] = {
 	KEY(1, 1, KEY_T),
 	KEY(1, 2, KEY_E),
 	KEY(1, 3, KEY_W),
-	KEY(1, 4, KEY_R),
+	KEY(1, 4, KEY_X), /*KEY_R),*/
 	KEY(1, 5, KEY_LEFT),
 	KEY(1, 6, KEY_ENTER),
 	KEY(1, 7, KEY_BACKSPACE),
