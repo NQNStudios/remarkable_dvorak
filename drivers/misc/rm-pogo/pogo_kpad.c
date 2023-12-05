@@ -179,7 +179,7 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(3, 0, KEY_RESERVED),
 	KEY(3, 1, KEY_RESERVED),
 	KEY(3, 2, KEY_RESERVED),
-	KEY(3, 3, KEY_EQUAL),
+	KEY(3, 3, KEY_GRAVE), // KEY_EQUAL
 	KEY(3, 4, KEY_0),
 	KEY(3, 5, KEY_C), // KEY_I
 	KEY(3, 6, KEY_UP),
@@ -213,7 +213,7 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(5, 4, KEY_N), // KEY_L
 	KEY(5, 5, KEY_9),
 	KEY(5, 6, KEY_H), // KEY_J
-	KEY(5, 7, KEY_GRAVE),
+	KEY(5, 7, KEY_SLASH), // KEY_GRAVE
 	KEY(5, 8, KEY_RESERVED),
 	KEY(5, 9, KEY_RESERVED),
 	KEY(5, 10, KEY_RESERVED),
